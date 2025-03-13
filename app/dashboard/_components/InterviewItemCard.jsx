@@ -18,7 +18,7 @@ const InterviewItemCard = ({interview}) => {
         <h2 className="text-xs text-gray-400" >Created At:{interview.createdAt}</h2>
 
         <div className='flex justify-between mt-2 gap-5 ' >
-            <Button onClick={onFeedback} size="sm"  className="w-full" >Feedback</Button>
+            <Button onClick={onFeedback} size="sm" variant="outline" className="w-full hover:bg-primary hover:text-white transition-colors" >Feedback</Button>
             <Button onClick={onStart} size="sm"  className="w-full">Start</Button>
         </div>
     </div>

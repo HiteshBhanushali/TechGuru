@@ -1,79 +1,63 @@
-# TechGuru - AI-Powered Mock Interview Platform
+# AI-Powered Mock Interview Platform
 
 ## Description
-TechGuru is an advanced and interactive AI-powered mock interview platform designed to help job seekers practice and improve their interview skills. Built with Next.js, Tailwind CSS, and Gemini API, it provides users with a realistic interview experience to enhance their chances of landing their dream job.
+This is an advanced and interactive AI-powered mock interview platform designed to help job seekers practice and improve their interview skills. Built with Next.js, Tailwind CSS, and Gemini Api,PostgreSQL, Drizzle ORM, it provides users with a good interview experience to enhance their chances of landing their dream job.
 
 ## Features
-- AI-driven Mock Interviews: Experience realistic interview scenarios with questions powered by AI
-- Personalized Interview Sessions: Tailor interview sessions based on job roles and experience level
-- Real-time Video Recording: Practice with webcam support to simulate real interview environments
-- Instant AI Feedback: Receive immediate, personalized feedback on your responses
-- Voice-to-Text Conversion: Automatically transcribe your spoken answers for review
-- Comprehensive Performance Reports: Get detailed insights into your strengths and areas for improvement
-- Interview History: Access and review your past interview sessions
+- AI-driven Interview: interview questions and feedback powered by AI.
+- Personalized Interview Experiences: Tailor interview sessions based on job roles and industries.
+- User Experience Level Questions: Questions are adjusted based on the user's experience level, ensuring relevance and appropriate difficulty.
+- Detailed Feedback and Insights: Receive detailed feedback on your performance, including strengths, areas for improvement, and actionable tips.
+- Question Bank: Access a wide range of interview questions across different domains and difficulty levels.
+- Overall Grade: Receive an overall grade for each interview session, providing a quick assessment of your performance.
+- Recent Interviews: Easily access and review your recent interview sessions directly from the home page.
 
 ## Getting Started
-To get started with TechGuru, follow these steps:
+To get started with the AI-Powered Mock Interview Platform, follow these steps:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/TechGuru.git
-   ```
+   git clone https://github.com/modamaan/Ai-mock-Interview.git
 
 2. Navigate to the project directory:
    ```bash
-   cd TechGuru
-   ```
+   cd ai-mock-interview
 
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
+3. Install dependencies by running: `npm install` or `yarn install`
 
-4. Set up environment variables:
-   Create a `.env` file with the following variables:
-   - NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
-   - DATABASE_URL=your_database_url
-   - NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
-   - CLERK_SECRET_KEY=your_clerk_secret
+4. Start the Server `npm run dev` or `yarn dev`
 
-5. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-6. Access the application at http://localhost:3000
+5. Access the Application: Open your browser and go to http://localhost:3000 to access the application.
 
 ## Technologies Used
-- Next.js 14: React framework for building the web application
-- Tailwind CSS: Utility-first CSS framework for styling
-- Gemini API: Google's AI model for generating interview questions and feedback
-- PostgreSQL: Database for storing user data and interview sessions
-- Drizzle ORM: Modern TypeScript ORM for database interactions
-- Clerk: Authentication and user management
-- React Webcam: For video interview functionality
+- Next.js: A React framework for building server-side rendered and static web applications.
+- Gemini API: Provides an interface for accessing the AI interview functionalities.
+- PostgreSQL: A powerful, open-source object-relational database system.
+- Neon Serverless: A serverless deployment for PostgreSQL, offering scalability and ease of use.
+- Drizzle ORM: An ORM that makes database interactions simpler and more intuitive.
 
 ## Usage
-1. Sign up or sign in to your account
-2. Create a new interview session by specifying:
-   - Job position
-   - Required technical skills
-   - Years of experience
-3. Enable your webcam (optional)
-4. Start the interview and answer the AI-generated questions
-5. Receive instant feedback on your performance
-6. Review your interview history and track your progress
+To use the AI-Powered Mock Interview Platform, follow these guidelines:
+- Create an Account: Sign up to start your mock interview sessions.
+- Choose Interview Type: Select the type of interview (e.g., technical, behavioral) and job role
+- Start Interview: Begin your mock interview and respond to the AI-generated questions.
+- Receive Feedback: After completing the interview, get detailed feedback and insights to improve.
+- Review Recent Interviews: Access your most recent interviews directly from the home page for quick review and continued improvement.
+
+## Feedback
+
+If you have any feedback, please reach me at [mohamedamaan319@gmail.com](mailto:mohamedamaan319@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/mohamedamaan319/).
+
 
 ## Contributing
-Contributions are welcome! To contribute:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to your branch
-5. Open a pull request
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+1. Fork this repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them to your branch.
+4. Push your changes to your forked repository.
+5. Submit a pull request to the main repository.
+
 
 ## Support
-Show your support by giving the project a ⭐!
 
-## License
-This project is licensed under the MIT License.
+Show your support by 🌟 the project!!
